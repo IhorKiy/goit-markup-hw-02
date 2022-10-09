@@ -163,11 +163,27 @@ list-style: none;
     text-decoration: none;
 }
 
+/* PORTFILIO */
 
+/* Filter`s button */
+.filter {
+    list-style: none;
 
+}
+.filter-btn {
+    font-size: 16px;
+    line-height: calc(26/16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    list-style: none;
+    background: #F5F4FA;
+}
+.filter-btn:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
 
-
-
+/* Work`s Portfolio */
 
 .visually-hidden {
     position: absolute;
@@ -180,4 +196,24 @@ list-style: none;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+.portfolio {
+    list-style: none;
+}
+.portfolio-a{
+    text-decoration: none;
+    color: #212121;
+}
+.portfolio-list-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(36/18);
+    letter-spacing: 0.06em;
+    text-decoration: none
+}
+.portfilio-list-p {
+    font-size: 16px;
+    line-height: calc(30/16);
+    letter-spacing: 0.03em;
+    color: #757575;
 }
